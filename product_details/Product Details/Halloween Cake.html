@@ -1,0 +1,678 @@
+<html>
+
+<head> 
+	<title>Halloween Cake</title> 
+	<link rel="stylesheet" href="Product Details.css">
+	<script src="Product Details.js"></script>
+
+	<link rel="stylesheet" href="../Font/SuperBoys-vmW67.ttf">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+	<link rel="icon" type="image/x-icon" href="../Img/Logo.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header-container">
+			<a href="../../home_page/home_page.html"><img id="Logo" src="../Img/Logo.png" alt="Logo"></a>
+			<h1>Pastry Delights</h1>
+		</div>
+			
+		
+		<div class="navbar">
+			<section class="content">
+		   
+				<a href="../../home_page/home_page.html">Home</a>
+				<div class="dropdown">
+					<button class="dropbtn">Products</button>
+					<div class="dropdown-content">
+						<a href="../../product_listing/Product Listing Page/Product Listing Cakes.html">Cakes</a>
+						<a href="../../product_listing/Product Listing Page/Product Listing Bread.html">Breads</a>
+						<a href="../../product_listing/Product Listing Page/Product Listing Cookies.html">Cookies</a>
+						<a href="../../product_listing/Product Listing Page/Seasonal.html">Seansonal Specials</a>
+					</div>
+				</div>
+				<a href="#about_us">About Us</a>
+				<a href="../../contact_us/contact_us.html">Contacts</a>
+			
+			</section>	
+			<section class="icons">
+				<section class="overlay-search-bar" id="overlay-search-bar">
+					<input type="search" id="search-input" placeholder="Search...">
+				</section>	
+				<section class="search-icon">
+					<a href="#" class="header-icon" onclick="toggleSearch()">
+						<i class="fa fa-search header-icon"></i>
+					</a>
+				</section>
+				
+				<section class="cart-icon">
+					<a href="#" class="header-icon" id="menu-cart"><i id="add-to-cart" class="fa fa-shopping-cart header-icon"></i>
+						<section class="icon-dropdown-content">
+							Nothing in cart
+						</section>
+					</a>
+				</section>	
+	
+				<section class="profile-icon">
+					<section href="#" class="header-icon">
+						<i id="profile"  class="fa fa-user-circle header-icon"></i>
+						<section id="account" class="icon-dropdown-content">
+							<p>You are not signed in</p>
+							<a href="../../log_in/log_in.html"><button>Log In</button></a>
+							<a href="../../log_in/log_in.html"><button>Sign Up</button></a>
+						</section>
+					</section>
+				</section>
+			</section>
+		</div>
+	</header>
+
+
+    <main class="container">
+
+
+	<!-- Image -->
+
+    <section class="left-column">
+       <img class="active"
+	        src="../Img/Long/Halloween Cake Long.png"
+			alt="A spooky cake with a haunting smile crafted on purple frosting with a haunted mansion surronded by pumpkins">
+    </section>
+	
+
+    <section class="right-column">
+		
+		<article>
+		
+		<h1 class="title">
+			Halloween Cake
+		</h1>
+
+		<p class="price"  id="price">
+		RM120
+		</p>
+
+
+		
+		
+		<!-- Product Description-->
+		<nav class="tabs">
+		
+			<input type="radio" 
+				   class="tabs-radio" 
+				   name="tabs" 
+				   id="description" 
+				   checked>
+
+			<label for="description" 
+			       class="tabs-label">
+				   Description
+			</label>
+
+			<div class="tabs-content">
+
+			
+
+			<article  class="product-description">
+
+				<p>
+					The cake is a delicious chocolate creation, adorned with a haunting smile delicately crafted in purple frosting. Its surface is decorated with a spooky mansion, surrounded by pumpkins. It's the perfect treat for a Halloween celebration.
+				</p>
+
+
+			</article>
+	 
+		  
+			<!-- Size in Inch -->	
+
+				<article class="size-config">
+					<summary> Size </summary>
+					
+					<div class="size-choose">
+						<button name="size" value="6" data-price="120" onclick="showPrice(this)">6 inch (700 kg)</button>
+						<button name="size" value="7" data-price="180" onclick="showPrice(this)">7 inch (1150 kg)</button>
+						<button name="size" value="8" data-price="240" onclick="showPrice(this)">8 inch (1600 kg)</button>
+					</div>
+
+					<section>
+						<span style="color: #cb0000;
+									 font-size: 17px ;">*</span>
+						<span>Available for pre-order from Oct 20th to Oct 31st</span>
+					</section>
+
+				</article>
+					
+					
+					
+				<article class="extra-info">
+
+					<!--Storage-->
+					
+					<section class="storage">
+						<details>
+							<summary>Storage</summary>
+							<p>Refrigeration: (0-4°C)
+							<br>Serving Temperature: (10°C - 12°C)
+							<br>Best Consumed Within: 3 days</p>
+						</details>
+					</section>
+					
+					<!-- Allergen -->
+
+					<section class="allergen">
+						<details>
+							<summary>Allergen</summary>
+							<p>Contains gluten, eggs, dairy and chocolate.</p>
+						</details>
+					</section>
+
+					<!-- Disclaimer -->
+
+					<section class="disclaimer">
+						<details>
+							<summary>Disclaimer</summary>
+							<p>Once your order has been placed, there shall be NO refund or any changes can be made </p>
+
+							<p>For optimal freshness, store our product in a cool, dry place away from direct sunlight and heat sources </p>
+								
+							<p>Consume our product within the recommended time frame for the best taste experience. </p>
+						</details>
+					</section>
+		  
+				</article>
+				
+			</div>
+
+
+
+
+			<!-- Delivery -->
+			
+			<input type="radio" class="tabs-radio" name="tabs" id="delivery">
+			<label for="delivery" class="tabs-label">Delivery</label>
+				
+			<div class="tabs-content">
+			
+				<form class="form">
+					<h1>Choose a Delivery / Pickup Date & Time</h1>
+					<p><input type="date" id="deliver-date-cake">
+
+						<name="data">
+						<select id="delivery-time" name="delivery-time">
+							<option value="08:00">10:00 AM - 1:00 PM</option>
+							<option value="09:00">1:00 PM - 3:00 PM </option>
+							<option value="09:00">3:00 PM - 5:00 PM </option>
+							<option value="09:00">5:00 PM - 7:00 PM </option>
+						</select>
+					</p>
+
+					<h1>Additional Notes</h1>
+					<textarea name="delivery-time" 
+								id="add-notes"
+								placeholder="Is there anything you want to let us know? Feel free to type here, you may leave blank if no notes." 
+								style="width: 100%; height: 100px;"></textarea>
+					<h1>Add Ons</h1>
+
+					<article class="all-add-ons">
+						<article class="add-on">
+							<article class=add-on-check>
+							
+								<section class="add-on-info">
+									<p>Candles and Knife</p>
+									<span> Free </span>
+								</section>
+								
+								<section>
+								<input type="checkbox" class="add-on-check" checked>
+								</section>
+								
+							</article>
+	
+						</article>				
+				
+
+						<article class="add-on">
+							<article class=add-on-check>
+							
+								<section class="add-on-info">
+									<p>Birthday Cake Topper</p>
+									<span> RM2 </span>
+								</section>
+								
+								<section>
+									<input type="checkbox" class="add-on-check" id="Candles">
+									<div class="checkbox-content"></div>
+								</section>
+								
+							</article>
+
+						</article>
+
+						<article class="add-on">
+							
+							<article class=add-on-check>
+							
+								<section class="add-on-info">
+									<p>Complimentary Message Card</p>
+									<span> Free </span>  
+									<article class="message">
+										<span>
+											<textarea name="Message-Textbox" 
+													id="Message-Textbox" 
+													class="Message" 
+													placeholder="Buyer's name will not be included unless stated here. We DO NOT write on the cake." 
+													oninput="countCharacters()"
+													
+													maxlength="250"
+													style="width: 100%; height: 100px;"></textarea>
+											
+											<p class="Max-chrc-textbox">
+											<span id="charCount">250</span> 
+											<span>characters remaining</span>
+											</p>
+										</span>
+									</article>              
+								</section>
+								
+								<section>
+									<input type="checkbox" class="add-on-check">
+								</section>
+								
+							</article>
+						</article>
+					</article>
+					
+					<article class="not-avaliable">
+						<p>Avaliable At Oct 20th to Oct 31st</p>
+					</article>
+				</form>
+
+					
+				
+					
+
+			</div>
+
+
+
+			<!-- Reviews -->
+
+			<input type="radio" class="tabs-radio" name="tabs" id="reviews">
+			<label for="reviews" class="tabs-label">Reviews</label>
+			<div class="tabs-content">
+			
+
+			<section class="box">
+
+				<!-- Top Section-->
+				<article class="comment-box">
+
+					<textarea id="comment" name="review" placeholder="&nbsp;Share your experience" rows="4" cols="50"></textarea><br>
+					
+					
+					<section class="stars">
+						<input type="checkbox" id="star1" name="review" value="1">
+						<label for="star1" class="fas fa-star"></label>
+					
+						<input type="checkbox" id="star2" name="review" value="2">
+						<label for="star2" class="fas fa-star"></label>
+					
+						<input type="checkbox" id="star3" name="review" value="3">
+						<label for="star3" class="fas fa-star"></label>
+					
+						<input type="checkbox" id="star4" name="review" value="4">
+						<label for="star4" class="fas fa-star"></label>
+					
+						<input type="checkbox" id="star5" name="review" value="5">
+						<label for="star5" class="fas fa-star"></label>
+					</section>
+
+				</article>
+
+			</section>
+				
+
+			<article class="boxes">
+
+				<section class="box">
+					
+					<!-- Top Section-->
+					<article class="box-top">
+						
+						<section class="username-date">
+							<p>Anonymous</p>
+							<span> 22/2/2024</span>
+						</section>
+						
+						<section class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						
+						</section>
+						
+					</article>
+					
+						
+					<!-- Bottom Section-->
+					<article class="box-bottom">
+						
+						<p>
+							Beautifully presented cake, but the taste was just okay. Had expected more for the price.
+						</p>
+					</article>
+
+				</section>
+
+				<article class = "reply-boxes">
+					<section class="reply-box">
+						
+						<!-- Top Section-->
+						<article class="box-top">
+							
+							<section class="username-date">
+								<p>Pastry Delights</p>
+								<span> 28/10/2023</span>
+							</section>
+							
+						</article>
+							
+								
+						<!-- Bottom Section-->
+						<article class="box-bottom">
+							
+							<p>
+								Thank you for the feedback as this will help us improve better. We will look into the issue. 
+							</p>
+						</article>
+
+					</section>
+				</article>
+				
+				<section class="box">
+					
+					<!-- Top Section-->
+					<article class="box-top">
+						
+						<section class="username-date">
+							<p>Anonymous</p>
+							<span> 26/10/2023</span>
+						</section>
+						
+						<section class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						
+						</section>
+						
+					</article>
+					
+						
+					<!-- Bottom Section-->
+					<article class="box-bottom">
+						
+						<p>
+							Great cake, loved it! 
+						</p>
+					</article>
+
+				</section>
+
+				<section class="box">
+					
+					<!-- Top Section-->
+					<article class="box-top">
+						
+						<section class="username-date">
+							<p>Anonymous</p>
+							<span> 25/10/2023</span>
+						</section>
+						
+						<section class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						
+						</section>
+						
+					</article>
+					
+						
+					<!-- Bottom Section-->
+					<article class="box-bottom">
+						
+						<p>
+							Great cake for any occasion! Moist layers with a creamy frosting, everyone loved it!
+						</p>
+					</article>
+
+				</section>
+
+				<section class="box">
+					
+					<!-- Top Section-->
+					<article class="box-top">
+						
+						<section class="username-date">
+							<p>Anonymous</p>
+							<span> 22/10/2023</span>
+						</section>
+						
+						<section class="stars">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						
+						</section>
+						
+					</article>
+					
+						
+					<!-- Bottom Section-->
+					<article class="box-bottom">
+						
+						<p>
+							Amazing cake! It looked beautiful and tasted even better. Will definitely order again! 
+						</p>
+					</article>
+
+				</section>
+			</article>
+	</nav>
+
+</main>
+
+
+<!--Other Products-->
+
+
+
+<aside class="other-products">
+    <p><b>Related Products:</b></p>
+    
+    <section class="scroll-container" id="scroll-container">
+        <a href="Strawberry Shortcake.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Strawberry Cake.jpg">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        Strawberry Cake
+                        <br/>
+                        RM70
+                    </p>
+                </section>
+            </div>
+        </a>
+
+
+		<a href="New York Style Cheese Cake.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Cheese Cake.jpg">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        New York Style Cheese Cake
+                        <br/>
+                        RM70
+                    </p>
+                </section>
+            </div>
+        </a>
+
+        <a href="Matcha Cookies.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Matcha Cookies.png">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        Matcha Cookies
+                        <br/>
+                        RM15 /6pcs
+                    </p>
+                </section>
+            </div>
+        </a>
+
+		<a href="Red Velvet Cookie.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Red Velvet Cookies.jpg">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        Red Velvet Cookies
+                        <br/>
+                        RM15 /6pcs
+                    </p>
+                </section>
+            </div>
+        </a>
+
+		<a href="Chocolate Chip Cookies.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Chocolate Cookies.jpg">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        Chocolate Chip Cookies
+                        <br/>
+                        RM15 /6pcs
+                    </p>
+                </section>
+            </div>
+        </a>
+
+        <a href="Butter Croissant.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Croissant.jpg">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        Butter Croissant
+                        <br/>
+						RM6
+                    </p>
+                </section>
+            </div>
+        </a>
+
+        <a href="Cinnamon Rolls.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Cinnamon Rolls.png">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        Cinnamon Rolls
+                        <br/>
+                        RM 15/pack
+                    </p>
+                </section>
+            </div>
+        </a>
+
+		<a href="Classic Sourdough.html" class="image-link">
+            <img id="scroll-img" alt="" src="../Img/Original/Sourdough.jpg">
+            <div class="overlay-others">
+                <section class="img-text">
+                    <p>
+                        Classic Sourdough
+                        <br/>
+                        RM 12
+                    </p>
+                </section>
+            </div>
+        </a>
+
+    </section>
+</aside>
+
+
+
+<footer class="footer">
+    <article id="about_us">
+        <h1>Pastry Delights</h1>
+        <p class="about_us">Welcome to our dessert shop! We specialize in crafting delectable cakes that are prefect for any occasion. Indulge in our wide selection of dessert, ranging from classic flavors cakes to unique creations cookies.</p>
+        <br></br>
+    </article>
+
+
+    <table class="table_footer">
+        <!--column 1-->
+        <tr>
+            <br></br>
+            <!--sign up form, column 1-3-->
+            <td>
+                <img src="../Img/open_letter.jpg" alt="this is an image of sending an email request">
+                <h3>Sign Up</h3> 
+                <h5>to get LASTEST NEWS!</h5>
+                <input class="sign_up_email" id="email" type="text" name="user_email" placeholder="email@gmail.com" required>
+            </td>
+
+            <td class="find-out-more">
+                <h3>Find out more!</h3>
+				<a href="../../contact_us/contact_us.html#faq" class="footer-li">FAQs</a>
+                <br></br>
+                <a href="">Terms and Conditions</a>
+                <br></br>
+                <a href="">Privacy Policy</a>
+                <br></br>
+            </td>
+
+            <td>
+                <a href="#about_us">About Us</a>
+                <br></br>
+                <h3>Social Media</h3>
+                <section class="fa_icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </section>
+            </td>
+        </tr>
+
+        <!--column 4-->
+        <tr>
+            <td colspan="3" class="text-align: center;">
+                <br></br>
+                <pre style="padding-bottom: 15px;">Copyright &copy; 2024 Pastry Delights Malaysia. All rights reserved.</pre>
+            </td>
+        </tr>
+    </table>
+</footer>
+
+</body>
+
+
+
+	
+</html>
+
+
+
