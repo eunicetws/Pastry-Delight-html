@@ -1,0 +1,688 @@
+@font-face{
+    font-family:"Super Boys";
+    src:url("SuperBoys-vmW67.ttf")format("opentype");
+}
+
+@font-face{
+	font-family:"Quick Sand";
+	src:url("Quicksand.ttf")format("opentype");
+}
+
+body {
+    background-color: #faf2f2;
+    font-family:"Quick Sand";
+    font-weight: bold;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* page header */
+header {
+    background-color: #EED6D3;
+    font-size: 16px;
+}
+
+#Logo {
+    width: 75px;
+    height: auto;
+    border: none;
+}
+
+/* Navbar container */	
+.navbar {
+    background-color: #EED6D3;
+    font-family:"Quick Sand";
+    font-weight: 400;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    position: relative; 
+    z-index: 1;
+}
+
+.header a:link, .header a:visited {
+    color: #cd567f;
+    background-color: #EED6D3;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: left;
+    font-family:"Quick Sand";
+}
+
+
+/* Home - Product - Contact Us*/	
+.content{
+    display: inline;
+    align-items: center;
+
+    padding: 10px 0px;
+    padding-bottom: 0px;
+
+    font-size: 16px;
+}
+
+/* Icon */	
+
+.header-icon {
+    font-size: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: center; 
+}
+
+.header .fa{
+    margin-top: 0;
+    font-weight: normal;
+}
+
+/* Ensure z-index is not causing any interference */
+.header .icons {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: center; 
+}
+
+/* Hover styles for header icons */
+.header-icon:hover {
+    color: white; 
+}
+
+
+/* Other relevant styles */
+.header-container {
+    background-color: #EED6D3;
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+    padding-bottom: 0px;
+    z-index: 1;
+}
+
+.header-container h1{
+    align-content: left;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: "Super Boys";
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #d19890,  
+         1px -1px 0 #d19890,
+        -1px  1px 0 #d19890,
+         1px  1px 0 #d19890,
+         5px  5px 0 #cd567f; 
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-bottom: -2px;
+    margin-top: 0px;
+}
+
+
+.dropdown {
+    float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #cd567f;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+}
+
+.dropbtn::after {
+    content: "\f0d7"; 
+    font-family: "FontAwesome"; 
+    padding-left: 6px;
+}
+
+.dropdown:hover{
+    color: white;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #cd567f;
+    color: white;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none !important; 
+    color: black !important;
+    background-color: #f9f9f9 !important;
+    padding: 12px 16px !important;
+    text-decoration: none !important;
+    display: block !important;
+    text-align: left !important;
+
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #cd567f !important;
+    color: white !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}	
+
+.overlay-search-bar{
+    align-items: center;
+    background-color: #EED6D3;
+    display: none;
+    z-index: 2;
+}
+
+.overlay-search-bar input[type="search"] {
+    font-size: 15px;
+    padding: 5px; 
+    margin: 5px; 
+
+    background-color: #EED6D3;
+
+    color: #cd567f;
+    font-family:"Quick Sand";
+    font-weight: 600;
+
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #cd567f;
+}
+
+.overlay-search-bar input[type="search"]::-webkit-search-decoration,
+.overlay-search-bar input[type="search"]::-webkit-search-cancel-button,
+.overlay-search-bar input[type="search"]::-webkit-search-results-button,
+.overlay-search-bar input[type="search"]::-webkit-search-results-decoration { 
+    display: none; 
+}
+
+#menu-cart:hover .dropdown-content {
+    display: block;
+}
+
+#add-to-cart{
+    border-radius: 10px;
+}
+    
+#account p{
+    color: black;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: initial;
+
+    margin: 1em;
+}
+
+#account button{
+    border: 1px solid #cd567f;
+    border-radius: 80px;
+    background-color: #fff4f2 ;
+    padding: 10px;
+    margin: 5px;
+
+    font-family:"Quick Sand";
+    font-weight:600;
+    color: #cd567f;
+
+    cursor: pointer;
+}
+
+#account button:hover{
+    background-color: #f7feff ;
+    border: 1px solid #36828b;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: center; 
+}
+
+.header-icon:hover {
+    color: white; 
+}
+
+.header-container {
+    background-color: #EED6D3;
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+    padding-bottom: 0px;
+    z-index: 1;
+}
+
+.header-container h1{
+    align-content: left;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: "Super Boys";
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #d19890,  
+         1px -1px 0 #d19890,
+        -1px  1px 0 #d19890,
+         1px  1px 0 #d19890,
+         5px  5px 0 #cd567f; 
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-bottom: -2px;
+    margin-top: 0px;
+}
+
+
+
+.overlay-search-bar{
+    align-items: center;
+    background-color: #EED6D3;
+    display: none;
+    z-index: 2;
+}
+
+.icon-dropdown-content {
+    display: none;
+    position: absolute;
+    justify-content: flex-end;
+
+    min-width: 160px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    padding: 12px 16px;
+    z-index: 1; 
+    
+    color: black;
+    font-size: 16px;
+    
+    right: 0%;
+    top: 100%;
+
+    border-radius: 10px;
+}
+
+.icons .header-icon:hover .icon-dropdown-content {
+    display: block;
+}
+    
+.profile-icon:hover .icon-dropdown-content {
+    display: block;
+}
+
+.profile-icon{
+    color: #cd567f;
+    background-color: #EED6D3;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.profile-icon:hover{
+    border-radius: 10px ;
+    background-color: #cd567f !important;
+    color: white !important;
+
+}
+
+#account a{
+    all: revert;
+}
+
+
+
+
+#account p{
+    color: black;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: initial;
+
+    margin: 1em;
+}
+
+#account button{
+    border: 1px solid #cd567f;
+    border-radius: 80px;
+    background-color: #fff4f2 ;
+    padding: 10px;
+    margin: 5px;
+
+    font-family:"Quick Sand";
+    font-weight:600;
+    color: #cd567f;
+
+    cursor: pointer;
+}
+
+#account button:hover{
+    background-color: #f7feff ;
+    border: 1px solid #36828b;
+}
+
+.header_image {
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family:"Super Boys";
+    font-size: 70px;
+    font-style:normal;
+    color: #cd567f; 
+    text-shadow: 5px 5px #EED6D3;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+    font-family:"Quick Sand";
+    margin: 20px;
+}
+
+td {
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/* phone and address css */
+.contact_info_callus {
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+    color: #cd567f;
+}
+
+.contact_desc {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 10px 20px 10px 20px;
+    color: #cd567f;
+}
+
+.contact_info_address {
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+    color: #cd567f;
+}
+
+.contact_desc > h4 {
+    color: #7b2041;
+    text-shadow: 
+        -1px -1px 0 #d19890,  
+         1px -1px 0 #d19890,
+        -1px  1px 0 #d19890,
+         1px  1px 0 #d19890;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.container_contactus {
+    height: 300px;
+    background: linear-gradient(to top, #EED6D3, #faf2f2, #EED6D3);
+    border-radius: 15px;
+    border-top: 4px solid #7b2041;
+    border-bottom: 4px solid #7b2041;
+    margin: 20px 0px 40px 0px;
+}
+
+/* form css */
+form {
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
+
+td.form {
+    width: 70%;
+    margin: 10px;
+}
+
+fieldset {
+    border-radius: 20px;
+    border-color: #36828b;
+    margin: 30px 20px 30px 20px;
+    align-items: center;
+    background-color: #47a8b334;
+}
+
+legend {
+    font-family:"Super Boys";
+    font-size: 55px;
+    font-style: normal;
+    text-align: left;
+    color: #36828b; 
+    margin-left: 50px;
+}
+
+label {
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 50px;
+}
+
+textarea {
+    height: 100px;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.submit {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+
+/* faq css */
+#faq {
+    background-color: #C4E4E8;
+    margin: 5px 15px 20px 15px;
+    padding: 20px;
+    height: max-content;
+}
+
+.faq_question {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+}
+
+.faq_triangle-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: auto;
+}
+
+.faq_triangle-btn i {
+    font-size: 20px;
+    color: #2b6b72;
+}
+
+.faq_answer {
+    display: none;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.faq_active {
+    display: block;
+}
+
+hr {
+    border-width: 4px;
+}
+
+h6 {
+    font-family: "Quicksand";
+    font-weight: bold;
+    color: #2b6b72;
+}
+
+/* footer */
+footer h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Super Boys";
+    font-size: 70px;
+    font-style: normal;
+    color: #cd567f; 
+    text-shadow: 5px 5px #EED6D3;
+}
+
+footer table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+    font-family: "Quick Sand";
+    margin: 20px;
+}
+
+footer  td {
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer, h3, h4, h5 {
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px;
+    font-family: "Quicksand";
+    font-weight: normal;
+    color: black;
+}
+
+
+footer .table_footer {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+footer .sign_up_email {
+    border-width: 0px 0px 2px;
+    text-align: center;
+    width: 250px;
+    background-color: #faf2f2;
+    height: 30px;
+    margin-left: 0px;
+}
+
+.footer-link:link, .footer-link:visited {
+    color: black; 
+    text-decoration: none;
+    font-family: "Quick Sand";
+    font-weight: bold;
+    background-color: #faf2f2;
+}
+
+.footer-link:hover {
+    color: #cd567f;
+}
+
+footer article {
+    background-color: #47a8b334;
+}
+
+footer article h1 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+footer .about_us {
+    text-align: left;
+    margin: 0px 50px 0px 50px;
+    font-weight: bold;
+}
+
+.fa_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+/* Target the icons inside the footer-fa */
+.footer-fa a {
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0%;
+    text-decoration: none; 
+    color: inherit;
+    width: 35px;
+    height: 35px;
+    background: #faf2f2;
+}
+
+.footer-fa a:hover {
+    transition: all 1s;
+    transform: rotateY(360deg); 
+    color: #cd567f;
+}
+
+
+
+
+
+
