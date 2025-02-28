@@ -1,0 +1,76 @@
+@font-face{
+	font-family:"Quick Sand";
+	src:url("Quicksand.ttf")format("opentype");
+}
+
+.footer{
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: :#faf2f2;
+	color: black;
+	text-align: center;
+}
+
+article{
+	font-family:"Quick Sand";
+}
+
+img{
+	border-radius: 10px;
+	
+}
+
+.ol {
+  position: relative;
+  width: 100%;
+}
+
+.ol:hover .overlay {
+  height: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  left:0;
+  right:0;
+  background: #cd567f;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.imagecontainer:hover .overlay {
+  height:100%;
+} 
+
+.text {
+  color:white ;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+}
+
+.icon {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+article.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+

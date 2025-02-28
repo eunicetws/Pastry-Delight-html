@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="Logo 2.0.png"/>
+	<title>Product Listing</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+icon{
+	w3-large
+}
+h1{
+
+	left:-550px;
+}
+</style>
+<link rel="stylesheet" href="Product Listing.css">
+<body style="background-color:#faf2f2;">
+<article class="icon">
+	<p align="left"  style="margin-left:-950px;">
+    <h1>Cakes</h1>
+</article>
+	<aside>
+		<article class="w3-container">
+			<span><a href=>Home</a></span>
+			<span class="w3-bar-item">></span>
+			<span class="w3-bar-item">Cakes</span>
+			<span class="w3-bar-item">></span>
+			<span class="w3-bar-item">All</span>
+		</article>
+	</aside>
+
+<article class="icon">
+	<h2>Available Cakes</h2>
+	<article class="buttonbutton" align="right" style="margin-right:-400px;">
+	<a href="Product Listing Cakes.html">
+	<button type="button">Cakes</button></a>
+	<a href="Product Listing Cookies.html">
+	<button type="button">Cookies</button></a>
+	<a href="Product Listing Bread.html">
+	<button type="button">Bread</button></a></article>
+	
+	<article align="right" style="margin-right:25px;">
+		Sort By:
+		<article class="dropdown">
+			<button class="dropbtn">All</button>
+				<article align="left">
+				<article class="dropdown-content">
+				<a href="Best Seller.html">Best Seller</a>
+				<a href="Seasonal.html">Seasonal</a>
+				<a href="New.html">New Arrivals</a>
+				</article>
+				</article>
+		</article>
+		Page 1/4
+	</article>
+</article>
+	
+    <table align="center">
+        <tr>
+            <td>
+                <figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="imagecontainer">
+					<a href = "default.asp">
+						<img alt="Capuccino Cake" src="./Images/Cappuccino-Cake.jpg" width="250" height="250"/>
+							<article class="overlay">
+							<article class="text">View More</article>
+							</article>
+					</a>
+				</article>
+                </figure>
+				<article>
+					<p>Cappuccino Cake<p>
+					<p>Price: RM 70</p>
+				</article>
+            </td>
+            <td>
+				<figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "default.asp">
+                    <img alt="Strawberry Cake" src="./Images/Strawberry Cake.jpg" width="250" height="250"/>
+						<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+                </a>
+				</article>
+				</figure>
+				<p>Strawberry Shortcake<p>
+				<p>Price: RM 70</p>
+				</article>
+			</td>
+            <td>
+				<figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "default.asp">
+                    <img alt="Cheese Cake" src="./Images/Cheese Cake.jpg" width="250" height="250"/>
+						<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+                </a>
+				</article>
+				</figure>
+				<p>New York Style Cheese Cake<p>
+				<p>Price: RM 70</p>
+				</article>
+			</td>
+		<tr>
+			<td>
+			<figure>
+			<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "default.asp">
+                    <img alt="Red Velvet Cake" src="./Images/Red Velvet Cake.jpg" width="250" height="250"/>
+						<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+				</article>
+                </a>
+				</article>
+				</figure>
+				<p>Red Velvet Cake<p>
+				<p>Price: RM 70</p>
+				</article>
+				</td>
+			<td>
+			<figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "default.asp">
+                    <img alt="Rainbow Cake" src="./Images/Rainbow Cake.jpg" width="250" height="250"/>
+						<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+                </a>
+				</article>
+				</figure>
+				<p>Rainbow Cake<p>
+				<p>Price: RM 70</p>
+				</article>
+				</td>
+			<td>
+			<figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "default.asp">
+                    <img alt="Black Forest Cake" src="./Images/Black Forest Cake.jpg" width="250" height="250"/>
+						<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+                </a>
+				</article>
+				</figure>
+				<p>Black Forest Cake<p>
+				<p>Price: RM 70</p>
+				</article>
+				</td>
+		</tr>
+    </table>
+</body>
+</html>

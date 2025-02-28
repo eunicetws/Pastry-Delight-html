@@ -1,0 +1,210 @@
+@font-face{
+	font-family:"Super Boys";
+	src:url("SuperBoys-vmW67.ttf")format("opentype");
+}
+@font-face{
+	font-family:"Quick Sand";
+	src:url("Quicksand.ttf")format("opentype");
+}
+
+h1{
+	font-family:"Super Boys",fantasy;
+	font-size: 70px;
+	font-style:normal;
+	position:relative;
+	top:2px;
+	text-align:center;
+	color:#cd567f;
+	text-shadow: 5px 5px #EED6D3;
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-family:"Super Boys",fantasy;
+	font-size: 55px;
+	font-style:normal;
+	text-align:left;
+	color:#36828b;
+	text-shadow: 5px 5px #C4E4E8;
+	margin-left: 20px;
+	padding: 0;
+}
+
+p {
+	font-family:"Quick Sand";
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+article{
+	font-family:"Quick Sand";
+}
+
+aside{
+	width:auto;
+	height:20px;
+	font-family:"Quick Sand";
+	background-color: #EED6D3;
+	color: #cd567f;
+	position: relative;
+	font-weight: bold;
+}
+
+img{
+	border-radius: 10px;
+	
+}
+
+.aside,article{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.button{
+	border-radius: 4px;
+	border: none;
+	padding: 20 px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-weight: bold;
+	}	
+
+.buttonbutton button{
+	border-radius: 12px;
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #cd567f;
+    color: #EED6D3;
+	font-size: 14px;
+	padding: 12px;
+	font-weight: bold;
+	}	
+	
+.ol {
+  position: relative;
+  width: 100%;
+}
+
+.ol:hover .overlay {
+  height: 100%;
+}
+
+.button{
+  font-family:"Quick Sand";
+  background-color: #cd567f;
+  color: #EED6D3;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.dropbtn {
+  font-family:"Quick Sand";
+  background-color: #cd567f;
+  color: #EED6D3;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  font-family:"Quick Sand";
+  display: none;
+  position: absolute;
+  background-color: #EED6D3;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 12px;
+  font-weight: bold;
+
+}
+
+.dropdown-content a {
+  font-family:"Quick Sand";
+  color: #cd567f;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.dropdown-content a:hover {background-color: #E5A5BB}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 12px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #D46D90;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px;
+}
+
+.imagecontainer{
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  left:0;
+  right:0;
+  background: #cd567f;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.imagecontainer:hover .overlay {
+  height:100%;
+} 
+
+.text {
+  color:white ;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+}
+
+.icon {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}

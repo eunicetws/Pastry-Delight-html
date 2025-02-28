@@ -1,0 +1,35 @@
+<article class="footer">
+<link rel="stylesheet" href="Product Footer.css">
+<p><b>You might also like:</b></p>
+
+				<article class="scroll-container">
+				<!--Link to product details page (Insert Link Later)-->
+				<a href = "default.asp">
+                    <img alt="Capuccino Cake" src="./Images/Best Seller Cappucino.png" width="250" height="250"/></a>
+					
+				<!--Link to product details page (Insert Link Later)-->
+				<a href = "default.asp">
+                    <img alt="Strawberry Cake" src="./Images/Best Seller Strawberry Shortcake.png" width="250" height="250"/></a>
+				<!--Link to product details page (Insert Link Later)-->
+				<a href = "default.asp">
+                    <img alt="Red Velvet Cake" src="./Images/Best Seller Red Velvet Cake.png" width="250" height="250"/>
+				</a>
+				<a href = "default.asp">
+                    <img alt="" src="./Images/Best Seller Chocolate Cookies.png" width="250" height="250"/>
+				</a>
+				<a href = "default.asp">
+                    <img alt="Matcha Cookies" src="./Images/Matcha Cookies.png" width="250" height="250"/>
+				</a>
+				<a href = "default.asp">
+                    <img alt="S'more Cookies" src="./Images/Best Seller S'more Cookie.png" width="250" height="250"/>
+				</a>
+				<a href = "default.asp">
+                <img alt="Croissant" src="./Images/Best Seller Croissant.png" width="250" height="250"/>
+				</a>
+				<a href = "default.asp">
+                <img alt="Classic Sourdough" src="./Images/Best Seller Sourdough.png" width="250" height="250"/>
+				</a>
+				<a href = "default.asp">
+                <img alt="Cinnamon Rolls" src="./Images/Best Seller Cinnamon Rolls.png" width="250" height="250"/>
+				</a>
+				</article>

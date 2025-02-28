@@ -1,0 +1,745 @@
+@font-face{
+	font-family:"Super Boys";
+	src:url("./Fonts/SuperBoys-vmW67.ttf")format("opentype");
+}
+@font-face{
+	font-family:"Quick Sand";
+	src:url("./Fonts/Quicksand.ttf")format("opentype");
+}
+
+h1{
+	font-family:"Super Boys",fantasy;
+	font-size: 70px;
+	font-style:normal;
+	position:relative;
+	top:2px;
+	text-align:center;
+	color:#cd567f;
+	text-shadow: 5px 5px #EED6D3;
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-family:"Super Boys",fantasy;
+	font-size: 55px;
+	font-style:normal;
+	text-align:left;
+	color:#36828b;
+	text-shadow: 5px 5px #C4E4E8;
+	margin-left: 20px;
+	padding: 0;
+}
+
+p {
+	font-family:"Quick Sand";
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+article{
+	font-family:"Quick Sand";
+}
+
+aside{
+	width:auto;
+	height:20px;
+	font-family:"Quick Sand";
+	background-color: #EED6D3;
+	color: #cd567f;
+	position: relative;
+	font-weight: bold;
+}
+
+img{
+	border-radius: 10px;
+	
+}
+
+.aside,article{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.button{
+	border-radius: 4px;
+	border: none;
+	padding: 20 px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-weight: bold;
+	}	
+
+.buttonbutton button{
+	border-radius: 12px;
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #cd567f;
+    color: #EED6D3;
+	font-size: 14px;
+	padding: 12px;
+	font-weight: bold;
+	}	
+	
+.ol {
+  position: relative;
+  width: 100%;
+}
+
+.ol:hover .overlay {
+  height: 100%;
+}
+
+.button{
+  font-family:"Quick Sand";
+  background-color: #cd567f;
+  color: #EED6D3;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.dropbtn {
+  font-family:"Quick Sand";
+  background-color: #cd567f;
+  color: #EED6D3;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  font-family:"Quick Sand";
+  display: none;
+  position: absolute;
+  background-color: #EED6D3;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 12px;
+  font-weight: bold;
+
+}
+
+.dropdown-content a {
+  font-family:"Quick Sand";
+  color: #cd567f;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.dropdown-content a:hover {background-color: #E5A5BB}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 12px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #D46D90;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px;
+}
+
+.imagecontainer{
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  left:0;
+  right:0;
+  background: #cd567f;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.imagecontainer:hover .overlay {
+  height:100%;
+} 
+
+.text {
+  color:white ;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+}
+
+.icon {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.type{
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+header {
+  background-color: #EED6D3;
+  font-size: 16px;
+}
+
+#Logo {
+  width: 75px;
+  height: auto;
+  border: none;
+}
+
+/* Navbar container */	
+.navbar {
+  background-color: #EED6D3;
+  font-family: 'Quick Sand';
+  font-weight: 400;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  position: relative; 
+  z-index: 1;
+}
+
+.header a:link, .header a:visited {
+  color: #cd567f;
+  background-color: #EED6D3;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  font-family: 'Quick Sand';
+}
+
+
+/* Home - Product - Contact Us*/	
+.content{
+  display: inline;
+  align-items: center;
+
+  padding: 10px 0px;
+  padding-bottom: 0px;
+
+  font-size: 16px;
+}
+
+/* Icon */	
+
+.header-icon {
+  font-size: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-radius: 10px; 
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  justify-content: center; 
+}
+
+.header .fa{
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Ensure z-index is not causing any interference */
+.header .icons {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  justify-content: center; 
+}
+
+/* Hover styles for header icons */
+.header-icon:hover {
+  color: white; 
+}
+
+
+/* Other relevant styles */
+.header-container {
+  background-color: #EED6D3;
+  display: flex; 
+  align-items: center; 
+  padding: 10px;
+  padding-bottom: 0px;
+  z-index: 1;
+}
+
+.header-container h1{
+  align-content: left;
+  font-weight: 300;
+  font-size: 50px;
+  font-family: "Super Boys";
+  color: white;
+  text-shadow: 
+      -1px -1px 0 #d19890,  
+       1px -1px 0 #d19890,
+      -1px  1px 0 #d19890,
+       1px  1px 0 #d19890,
+       5px  5px 0 #cd567f; 
+  letter-spacing: 2px;
+  margin: 10px;
+  margin-bottom: -2px;
+  margin-top: 0px;
+}
+
+
+.header .dropdown {
+  float: left;
+}
+
+/* Dropdown button */
+.header .dropdown .dropbtn {
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 0;
+  color: #cd567f;
+  
+  border: none;
+  outline: none;
+  
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.header .dropbtn::after {
+  content: "\f0d7"; 
+  font-family: "FontAwesome"; 
+  padding-left: 6px;
+}
+
+.navbar a:hover, .header .dropdown:hover .dropbtn, .header .dr {
+  background-color: #cd567f !important;
+  color: white !important;
+}
+
+/* Dropdown content (hidden by default) */
+.header .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.header .dropdown-content a {
+  float: none !important; 
+
+  color: black !important;
+  text-decoration: none !important;
+  text-align: left !important;
+  font-weight: normal !important; 
+
+  background-color: #f9f9f9 !important;
+
+  border-radius: 0px;
+
+  padding: 12px 16px !important;
+  display: block !important;
+}
+
+/* Add a background color to dropdown links on hover */
+.header .dropdown-content a:hover {
+  background-color: #cd567f !important;
+  color: white !important;
+}
+
+/* Show the dropdown menu on hover */
+.header .dropdown:hover .dropdown-content {
+  display: block;
+}	
+
+.overlay-search-bar{
+  align-items: center;
+  background-color: #EED6D3;
+  display: none;
+  z-index: 2;
+}
+
+.overlay-search-bar input[type="search"] {
+  font-size: 15px;
+  padding: 5px; 
+  margin: 5px; 
+
+  background-color: #EED6D3;
+
+  color: #cd567f;
+  font-family: "Quick Sand";
+  font-weight: 600;
+
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #cd567f;
+}
+
+.overlay-search-bar input[type="search"]::-webkit-search-decoration,
+.overlay-search-bar input[type="search"]::-webkit-search-cancel-button,
+.overlay-search-bar input[type="search"]::-webkit-search-results-button,
+.overlay-search-bar input[type="search"]::-webkit-search-results-decoration { 
+  display: none; 
+}
+
+#menu-cart:hover .dropdown-content {
+  display: block;
+}
+
+#add-to-cart{
+  border-radius: 10px;
+}
+  
+#account p{
+  color: black;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: initial;
+
+  margin: 1em;
+}
+
+#account button{
+  border: 1px solid #cd567f;
+  border-radius: 80px;
+  background-color: #fff4f2 ;
+  padding: 10px;
+  margin: 5px;
+
+  font-family: "Quick Sand";
+  font-weight:600;
+  color: #cd567f;
+
+  cursor: pointer;
+}
+
+#account button:hover{
+  background-color: #f7feff ;
+  border: 1px solid #36828b;
+}
+
+.header .icons {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  justify-content: center; 
+}
+
+.header-icon:hover {
+  color: white; 
+}
+
+.header-container {
+  background-color: #EED6D3;
+  display: flex; 
+  align-items: center; 
+  padding: 10px;
+  padding-bottom: 0px;
+  z-index: 1;
+}
+
+.header-container h1{
+  align-content: left;
+  font-weight: 300;
+  font-size: 50px;
+  font-family: "Super Boys";
+  color: white;
+  text-shadow: 
+      -1px -1px 0 #d19890,  
+       1px -1px 0 #d19890,
+      -1px  1px 0 #d19890,
+       1px  1px 0 #d19890,
+       5px  5px 0 #cd567f; 
+  letter-spacing: 2px;
+  margin: 10px;
+  margin-bottom: -2px;
+  margin-top: 0px;
+}
+
+
+
+.overlay-search-bar{
+  align-items: center;
+  background-color: #EED6D3;
+  display: none;
+  z-index: 2;
+}
+
+.overlay-search-bar input[type="search"] {
+  font-size: 15px;
+  padding: 5px; 
+  margin: 5px; 
+
+  background-color: #EED6D3;
+
+  color: #cd567f;
+  font-family: "Quick Sand";
+  font-weight: 600;
+
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #cd567f;
+}
+
+.overlay-search-bar input[type="search"]::-webkit-search-decoration,
+.overlay-search-bar input[type="search"]::-webkit-search-cancel-button,
+.overlay-search-bar input[type="search"]::-webkit-search-results-button,
+.overlay-search-bar input[type="search"]::-webkit-search-results-decoration { 
+  display: none; 
+}
+
+
+
+/* Show the dropdown content when the "Add to Cart" icon is hovered */
+#menu-cart:hover .dropdown-content {
+  display: block;
+}
+
+#add-to-cart{
+  border-radius: 10px;
+}
+
+.icon-dropdown-content{
+  display: none;
+  position: absolute;
+  justify-content: flex-end;
+
+  min-width: 160px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  padding: 12px 16px;
+  z-index: 1; 
+  
+  color: black;
+  font-size: 16px;
+  
+  right: 0%;
+  top: 100%;
+
+  border-radius: 10px;
+}
+
+.icons .header-icon:hover .icon-dropdown-content {
+  display: block;
+}
+
+.profile-icon:hover .icon-dropdown-content {
+  display: block;
+}
+
+.profile-icon{
+  color: #cd567f;
+  background-color: #EED6D3;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.profile-icon:hover{
+  border-radius: 10px ;
+  background-color: #cd567f !important;
+  color: white !important;
+
+}
+
+#account a, #account a:hover{
+  all: revert;
+  background-color: white  !important;
+}
+
+  
+#account p{
+  color: black;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: initial;
+
+  margin: 1em;
+}
+
+#account button{
+  border: 1px solid #cd567f;
+  border-radius: 80px;
+  background-color: #fff4f2 ;
+  padding: 10px;
+  margin: 5px;
+
+  font-family: "Quick Sand";
+  font-weight:600;
+  color: #cd567f;
+
+  cursor: pointer;
+}
+
+#account button:hover{
+  background-color: #f7feff ;
+  border: 1px solid #36828b;
+}
+
+
+
+
+
+
+
+
+.footer h1 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family:"Super Boys";
+  font-size: 70px;
+  font-style:normal;
+  color: #cd567f; 
+  text-shadow: 5px 5px #EED6D3;
+}
+
+.footer table {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+  font-family:"Quick Sand";
+  margin: 20px;
+}
+
+.footer td {
+  padding: 10px 20px 10px 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* footer */
+footer, h3, h4, h5 {
+  text-align: center;
+  line-height: 1.5;
+  margin: 10px;
+  font-family: "Quick Sand";
+  font-weight: normal;
+  color: black;
+}
+
+.table_footer {
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+
+.sign_up_email {
+  border-width: 0px 0px 2px;
+  text-align: center;
+  width: 250px;
+  background-color: #faf2f2;
+  height: 30px;
+  margin-left: 0px;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #cd567f;
+}
+
+/* about us */
+footer > article {
+  background-color: #47a8b334;
+}
+
+.footer article > h1 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  text-align: left;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+.about_us {
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  font-weight: bold;
+}
+
+
+/* social media */
+.fa_icons {
+  align-items: center;
+  display: inline-flex;
+  font-size: 25px;
+}
+
+.footer .fa {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0%;
+  width: 35px;
+  height: 35px;
+}
+
+.footer .fa:hover {
+  transition: all 1s;
+  transform: rotateY(360deg); 
+}
+
+.footer img{
+  border: none;
+}

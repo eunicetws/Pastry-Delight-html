@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+h1 {text-align:center;}
+p {text-align:center;}
+.container{
+	text-align:center;
+	}
+.button{
+	border-radius: 4px;
+	border: none;
+	padding: 20 px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	}
+</style>
+<title>Product Listing</title>
+</head>
+<body>
+    <h1>Cakes</h1>
+    <table align="center">
+        <tr>
+            <td>
+                <figure>
+                    <img alt="Capuccino Cake" src="Cappuccino-Cake.jpg" width="250" height="250"/>
+                </figure>
+				<p>Cappuccino Cake<p>
+				<p>Price: RM 70.00</p>
+				<article class="container">
+				<button class="button button">View More</button>
+				</article>
+				</article>
+            </td>
+            <td>
+				<figure>
+                    <img alt="Strawberry Cake" src="Strawberry Cake.jpg" width="250" height="250"/>
+                </figure>
+				<p>Strawberry Shortcake<p>
+				<p>Price: RM 70.00</p>
+				<article class="container">
+				<button class="button button">View More</button>
+				</article>
+			</td>
+            <td>
+				<figure>
+                    <img alt="Cheese Cake" src="Cheese Cake.jpg" width="250" height="250"/>
+                </figure>
+				<p>New York Style Cheese Cake<p>
+				<p>Price: RM 70.00</p>
+				<article class="container">
+				<button class="button button">View More</button>
+				</article>
+			</td>
+        </tr>
+		<tr>
+			<td>
+			<figure>
+                    <img alt="Red Velvet Cake" src="Red Velvet Cake.jpg" width="250" height="250"/>
+                </figure>
+				<p>Red Velvet Cake<p>
+				<p>Price: RM 70.00</p>
+				<article class="container">
+				<button class="button button">View More</button>
+				</article>
+				</td>
+			<td>
+			<figure>
+                    <img alt="Rainbow Cake" src="Rainbow Cake.jpg" width="250" height="250"/>
+                </figure>
+				<p>Rainbow Cake<p>
+				<p>Price: RM 70.00</p>
+				<article class="container">
+				<button class="button button">View More</button>
+				</article>
+				</td>
+			
+		</tr>
+    </table>
+</body>
+</html>

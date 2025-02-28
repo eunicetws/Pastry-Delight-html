@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="Images/Logo.png">
+	<title>Product Listing</title>
+
+	<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="Product Listing.css">
+	<script src="Product Listing.js"></script>
+</head>
+
+
+<header class="header">
+	<div class="header-container">
+        <a href="../../home_page/home_page.html"><img id="Logo" src="Images/Logo.png" alt="Logo"></a>
+		<h1>Pastry Delights</h1>
+	</div>
+        
+    
+	<div class="navbar">
+		<section class="content">
+       
+			<a href="../../home_page/home_page.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Products</button>
+                <div class="dropdown-content">
+                    <a href="../Product Listing Page/Product Listing Cakes.html">Cakes</a>
+                    <a href="../Product Listing Page/Product Listing Bread.html">Breads</a>
+                    <a href="../Product Listing Page/Product Listing Cookies.html">Cookies</a>
+                    <a href="../Product Listing Page/Seasonal.html">Seansonal Specials</a>
+                </div>
+            </div>
+            <a href="#about_us">About Us</a>
+            <a href="../../contact_us/contact_us.html">Contacts</a>
+        
+		</section>	
+		<section class="icons">
+			<section class="overlay-search-bar" id="overlay-search-bar">
+				<input type="search" id="search-input" placeholder="Search...">
+			</section>	
+			<section class="search-icon">
+				<a href="#" class="header-icon" onclick="toggleSearch()">
+					<i class="fa fa-search header-icon"></i>
+				</a>
+			</section>
+			
+			<section class="cart-icon">
+				<a href="#" class="header-icon" id="menu-cart"><i id="add-to-cart" class="fa fa-shopping-cart header-icon"></i>
+					<section class="icon-dropdown-content">
+						Nothing in cart
+					</section>
+				</a>
+			</section>	
+
+			<section class="profile-icon">
+				<section href="#" class="header-icon">
+					<i id="profile"  class="fa fa-user-circle header-icon"></i>
+					<section id="account" class="icon-dropdown-content">
+						<p>You are not signed in</p>
+						<a href="../../login/log_in.html"><button>Log In</button></a>
+						<a href="../../login/log_in.html"><button>Sign Up</button></a>
+					</section>
+				</section>
+			</section>
+		</section>
+	</div>
+</header>
+
+<link rel="stylesheet" href="Product Listing.css">
+<body style="background-color:#faf2f2;">
+<article class="type">
+    <h1>Bread</h1>
+</article>
+	<aside>
+		<article class="w3-container">
+			<span><a href=>Home</a></span>
+			<span class="w3-bar-item">></span>
+			<span class="w3-bar-item">Bread</span>
+			<span class="w3-bar-item">></span>
+			<span class="w3-bar-item">Best Seller</span>
+		</article>
+	</aside>
+	
+<article class="icon">
+	<h2>Best Seller</h2>
+	<article class="buttonbutton" align="right" style="margin-right:-450px;">
+	<a href="Product Listing Cakes.html">
+	<button type="button">Cakes</button></a>
+	<a href="Product Listing Cookies.html">
+	<button type="button">Cookies</button></a>
+	<a href="Product Listing Bread.html">
+	<button type="button">Bread</button></a></article>
+	
+	<article align="right" style="margin-right:25px;">
+		Sort By:
+		<article class="dropdown">
+			<button class="dropbtn">Best Seller</button>
+				<article align="left">
+				<article class="dropdown-content">
+				<a href="Product Listing Bread.html">All</a>
+				<a href="New Bread.html">New Arrivals</a>
+				</article>
+				</article>
+		</article>
+			Page 2/3
+	</article>
+</article>
+    <table align="center">
+        <tr>
+            <td>
+                <figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "../../product_details/Product Details/Butter Croissant.html">
+                    <img alt="Croissant" src="./Images/Best Seller Croissant.png" width="250" height="250"/>
+					<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+				</a>
+				</article>
+                </figure>
+				<article>
+					<p>Butter Croissant<p>
+					<p>Price: RM 6</p>
+				</article>
+            </td>
+            <td>
+				<figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "../../product_details/Product Details/Classic Sourdough.html">
+                    <img alt="Classic Sourdough" src="./Images/Best Seller Sourdough.png" width="250" height="250"/>
+						<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+                </a>
+				</article>
+				</figure>
+				<p>Classic Sourdough<p>
+				<p>Price: RM 12</p>
+				</article>
+			</td>
+            <td>
+				<figure>
+				<!--Link to product details page (Insert Link Later)-->
+				<article class="ol">
+				<a href = "../../product_details/Product Details/Cinnamon Rolls.html">
+                    <img alt="Cinnamon Rolls" src="./Images/Best Seller Cinnamon Rolls.png" width="250" height="250"/>
+						<article class="overlay">
+						<article class="text">View More</article>
+					</article>
+					</article>
+				</article>
+                </a>
+				</article>
+				</figure>
+				<p>Cinnamon Rolls<p>
+				<p>Price: RM 15 /pack</p>
+				</article>
+			</td>
+		</tr>
+    </table>
+</body>
+
+
+<footer class="footer">
+    <article id="about_us">
+        <h1>Pastry Delights</h1>
+        <p class="about_us">Welcome to our dessert shop! We specialize in crafting delectable cakes that are prefect for any occasion. Indulge in our wide selection of dessert, ranging from classic flavors cakes to unique creations cookies.</p>
+        <br></br>
+    </article>
+
+
+    <table class="table_footer">
+        <!--column 1-->
+        <tr>
+            <br></br>
+            <!--sign up form, column 1-3-->
+            <td>
+                <img src="Images/open_letter.jpg" alt="this is an image of sending an email request">
+                <h3>Sign Up</h3> 
+                <h5>to get LASTEST NEWS!</h5>
+                <input class="sign_up_email" id="email" type="text" name="user_email" placeholder="email@gmail.com" required>
+            </td>
+
+            <td class="find-out-more">
+                <h3>Find out more!</h3>
+                <a href="../../contact_us/contact_us.html#faq" class="footer-link">FAQs</a>
+                <br></br>
+                <a href="">Terms and Conditions</a>
+                <br></br>
+                <a href="">Privacy Policy</a>
+                <br></br>
+            </td>
+
+            <td>
+                <a href="#about_us">About Us</a>
+                <br></br>
+                <h3>Social Media</h3>
+                <section class="fa_icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </section>
+            </td>
+        </tr>
+
+        <!--column 4-->
+        <tr>
+            <td colspan="3" class="text-align: center;">
+                <br></br>
+                <pre style="padding-bottom: 15px;">Copyright &copy; 2024 Pastry Delights Malaysia. All rights reserved.</pre>
+            </td>
+        </tr>
+    </table>
+</footer>

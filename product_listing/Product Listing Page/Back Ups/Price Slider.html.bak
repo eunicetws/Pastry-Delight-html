@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+.slidecontainer {
+	width: 100%;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 20%;
+	height: 10px;
+	border-radius: 2px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #808080;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #808080;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<p>Price</p>
+<article class="slidecontainer">
+	<input type="range" min="70.00" max="120" value="100" class="slider" id="myRange">
+	<center><section id="demo"></section></center>
+	<input type="number" id="demo" min="70" max="120">
+</article>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+
+</body>
+</html>
